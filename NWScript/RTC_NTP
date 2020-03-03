@@ -1,0 +1,8 @@
+mydate=`date`
+    while ntpdate -q <server>| awk '/ntpdate/{print $3, $10}'
+    echo "SYSTEM TIME : $mydate"
+	do sleep 60
+    done > /var/ntp.log
+=----------------
+
+ntpdate -b 13.61.15.205 --> this will set ntpserver time to our system
