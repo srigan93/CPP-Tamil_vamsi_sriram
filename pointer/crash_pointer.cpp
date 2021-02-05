@@ -6,7 +6,7 @@ class A
 {
 	int value;
 public:
-        void bigboss3(){ cout << "Sriram is cute and handsome" << endl;}
+        void bigboss3(){ cout << "Sriram is a dumb idiot" << endl;}
 	void dumb() const {cout << "dumb()\n";}
 	void set(int x) {cout << "set() value \n"<<x<<"\n"; value=x;}
 	int get() const {cout << "get()\n"; return value;}
